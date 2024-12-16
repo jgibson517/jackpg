@@ -1,0 +1,25 @@
+{% load navigation_tags %}
+
+<footer>
+
+    {% get_footer_text %}
+
+    {% with linkedin_url=settings.base.NavigationSettings.linkedin_url github_url=settings.base.NavigationSettings.github_url bluesky_url=settings.base.NavigationSettings.bluesky_url %}
+        {% if linkedin_url or github_url or mastodon_url %}
+            <p>
+                Follow me on: 
+                {% if github_url %} 
+                    <a href="{{ github_url }}">GitHub</a>
+                {% endif %}
+                {% if linkedin_url %}
+                    <a href="{{ linkedin_url }}">LinkedIn</a>
+                {% endif %}
+                {% if bluesky_url %}
+                    <a href="{{ bluesky_url }}">Bluesky</a>
+                {% endif %}
+            </p>
+        {% endif %}
+    {% endwith %}
+
+
+</footer>

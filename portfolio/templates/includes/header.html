@@ -1,0 +1,23 @@
+{# Load wagtailuserbar: #}
+{% load wagtailcore_tags navigation_tags wagtailuserbar %}
+
+<header>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    {% get_site_root as site_root %}
+    <nav class="menu-container">
+        <p class="menu-items">
+          <a href="{% pageurl site_root %}">{{ site_root.title }}</a> |
+          {% for menuitem in site_root.get_children.live.in_menu %}
+            <a href="{% pageurl menuitem %}">{{ menuitem.title }}</a>{% if not forloop.last %} | {% endif %}
+          {% endfor %}
+        </p>
+
+        <p class="menu-search">
+          <a href="/search/">Search</a>
+        </p>
+    </nav>
+
+    {# Add wagtailuserbar: #}
+    {% wagtailuserbar "top-right" %}
+</header>
