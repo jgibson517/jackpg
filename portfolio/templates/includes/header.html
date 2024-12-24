@@ -1,23 +1,25 @@
 {# Load wagtailuserbar: #}
 {% load wagtailcore_tags navigation_tags wagtailuserbar %}
 
-<header>
-    <a href="#main" class="skip-link">Skip to content</a>
+  <header class="p-3 mb-3 border-bottom">
+      {% get_site_root as site_root %}
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
 
-    {% get_site_root as site_root %}
-    <nav class="menu-container">
-        <p class="menu-items">
-          <a href="{% pageurl site_root %}">{{ site_root.title }}</a> |
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href='{% pageurl site_root %}' class="nav-link px-2 link-secondary">{{ site_root.title}}</a></li>
           {% for menuitem in site_root.get_children.live.in_menu %}
-            <a href="{% pageurl menuitem %}">{{ menuitem.title }}</a>{% if not forloop.last %} | {% endif %}
+          <li><a href="{% pageurl menuitem %}" class="nav-link px-2 link-secondary">{{ menuitem.title }}</a></li>{% if not forloop.last %}{% endif %}
           {% endfor %}
-        </p>
+        </ul>
 
-        <p class="menu-search">
-          <a href="/search/">Search</a>
-        </p>
-    </nav>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action='/search/' role="search">
+          <input type="text" name="query"{% if search_query %} value="{{ search_query }}"{% endif %} placeholder="Search..." required>
+          <input type="submit" value="Search" class="button">
+        </form>
 
-    {# Add wagtailuserbar: #}
-    {% wagtailuserbar "top-right" %}
-</header>
+      </div>
+    
+  </header>
