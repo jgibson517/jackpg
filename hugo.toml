@@ -1,0 +1,4 @@
+baseURL = 'https://jpg.com/'
+languageCode = 'en-us'
+title = 'Jack Gibson'
+theme = 'hugo-bearblog'
