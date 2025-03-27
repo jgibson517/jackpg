@@ -19,7 +19,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build the site
-        run: hugo
+        run: hugo --minify
 
       - name: Set AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
@@ -29,4 +29,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Push to s3
-        run: aws s3 sync ./public s3://${{ secrets.S3_BUCKET_NAME }} --delete
+        run: aws s3 sync public/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
