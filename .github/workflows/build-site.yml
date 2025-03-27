@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: true
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
@@ -19,7 +21,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build the site
-        run: hugo --ignoreCache
+        run: hugo
 
       - name: Set AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
