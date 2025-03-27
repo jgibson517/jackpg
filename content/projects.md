@@ -31,7 +31,7 @@ Python library to study and analyze election systems, such as ranked-choice voti
 
 ### [Comparing Electoral Systems for the Massachusetts Legislature](https://mggg.org/MA-report)
 
-Study on election systems in the state of Massachusetts. Done in partnership with Data and Democracy Lab and New America. Click [here](https://www.newamerica.org/political-reform/briefs/enhancing-representation-in-massachusetts/) to read New America's corresponding brief. 
+Study on election systems in the state of Massachusetts. Done in partnership with the Data and Democracy Lab and New America. Click [here](https://www.newamerica.org/political-reform/briefs/enhancing-representation-in-massachusetts/) to read New America's corresponding brief. 
 
 ### [Measuring Creative Destruction](https://cdr.creighton.edu/server/api/core/bitstreams/d371f88b-8fd3-45a7-9133-1ebafef89418/content)
 
