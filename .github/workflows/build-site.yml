@@ -19,7 +19,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build the site
-        run: hugo --minify
+        run: hugo --ignoreCache
 
       - name: Set AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
