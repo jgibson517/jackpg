@@ -36,5 +36,3 @@ Study on election systems in the state of Massachusetts. Done in partnership wit
 ### [Measuring Creative Destruction](https://cdr.creighton.edu/server/api/core/bitstreams/d371f88b-8fd3-45a7-9133-1ebafef89418/content)
 
 Comparative econometric study examining empirical evidence for Joseph Schumpter's theory of creative destruction (see [here](https://www.youtube.com/watch?v=lrq2BzsFfl8)). Published as an undergraduate at Creighton University in QUEST: A Journal of Undergraduate Research.
-
-Add a test sentence here.

@@ -6,7 +6,7 @@ title = "Jack Gibson"
 
 My name is Jack. 
 
-Currently, I'm engineer for the Minnesota Timberwolves. There I write code to help inform basketball decisions. Previously, I was a graduate student in the University of Chicago's [Computational Analysis and Public Policy](https://capp.uchicago.edu/) program.
+Currently, I'm an engineer for the Minnesota Timberwolves. There I write code to help inform basketball decisions. Previously, I was a graduate student in the University of Chicago's [Computational Analysis and Public Policy](https://capp.uchicago.edu/) program.
 
 I'm also a past contributor to the [Data and Democracy Lab](https://mggg.org/) (formerly know as the Metric Geometry and Gerrymandering Group).
 
