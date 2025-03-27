@@ -1,6 +1,5 @@
 +++
 date = '2025-03-22T12:40:08-05:00'
-draft = true
 title = '/projects'
 menu = 'main'
 +++
