@@ -1,4 +1,4 @@
-baseURL = 'https://jpg.com/'
+baseURL = 'https://jackpg.dev/'
 languageCode = 'en-us'
 title = 'Jack Gibson'
 theme = 'hugo-bearblog'
