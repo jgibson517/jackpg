@@ -6,7 +6,7 @@ menu = 'main'
 
 ## Projects
 
-I am programmer and a researcher. On this page you can find select examples of both software and research I've contributed to. 
+I'm a programmer and researcher. On this page you can find select examples of both software and research I've contributed to. 
 
 These days, I work mostly in code. Please visit my [GitHub](https://github.com/jgibson517) to see what I'm actively working on. 
 
