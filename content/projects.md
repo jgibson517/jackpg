@@ -16,7 +16,7 @@ These days, I work mostly in code. Please visit my [GitHub](https://github.com/j
 
 ### [civiclens](https://github.com/uchicago-capp-30320/CivicLens)
 
-Django application to promote accessible access to public comments on federal legislation. Built in colloboration with peers from the University of Chicago for James Turk's Software Engineering for Civic Tech [course](https://capp30320.jpt.sh/). 
+Django application to promote access to and analyis of public comments on federal legislation. Features data pipelines to automatically collect comments from GSA along with natural langauge processsing to analyze sentiment and themes of public comments. Built in collaboration with peers from the University of Chicago for James Turk's Software Engineering for Civic Tech [course](https://capp30320.jpt.sh/). 
 
 *Currently a public archive and not under active development.*
 

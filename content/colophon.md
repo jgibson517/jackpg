@@ -5,7 +5,7 @@ title = 'About this site'
 
 ### What is this?
 
-This my personal site. It's mainly used to document my work, but I included some personal stuff too as motivation to keep maintaining it.
+This my portfolio site. It's mainly used to document my work, but I included some personal stuff too as motivation to keep maintaining it.
 
 ### Who is Jack Gibson?
 

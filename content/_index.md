@@ -16,4 +16,4 @@ See the [about](/about) page for a more detailed description of my work history.
 
 --- 
 
-You can also (ocasionally) find me on: [github](https://github.com/jgibson517) | [linkedin](https://www.linkedin.com/in/jackgibson17/overlay/about-this-profile/) | [blueksy](https://bsky.app/profile/jack-gibson.bsky.social)
+You can also (ocasionally) find me on: [github](https://github.com/jgibson517) | [linkedin](https://www.linkedin.com/in/jackgibson17/overlay/about-this-profile/) | [bluesky](https://bsky.app/profile/jack-gibson.bsky.social)

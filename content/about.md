@@ -8,7 +8,7 @@ menu = 'main'
 
 I'm an engineer for the Minnesota Timberwolves. There I write code to help inform basketball decisions. Previously, I was a graduate student at the University of Chicago's [Computational Analysis and Public Policy](https://capp.uchicago.edu/) (CAPP) program, where I researched election systems and helped teach programming. 
 
-I'm also a former contributor to the [Data and Democracy Lab](https://mggg.org/) (fka MGGG Redistricting Lab). In a past life, I was research and policy consultant with the brilliant folks at [Gravity Research](https://www.gravityresearch.com/) (fka National Journal's NSI).
+I'm also a former contributor to the [Data and Democracy Lab](https://mggg.org/) (fka MGGG Redistricting Lab). In a past life, I was a research and policy consultant with the brilliant folks at [Gravity Research](https://www.gravityresearch.com/) (fka National Journal's NSI).
 
 
 Selected work along with my educational background can be found below.
