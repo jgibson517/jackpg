@@ -1,5 +1,5 @@
 +++
-title = "Jack Gibson"
+title = "Home"
 +++
 
 ## Hi, there!
