@@ -26,7 +26,7 @@ Predicting resturant health inspection failure using Yelp review data. Additiona
 
 ### [votekit](https://github.com/mggg/VoteKit)
 
-Python library to study and analyze election systems, such as ranked-choice voting. Developed as a fellow for Moon Duchin's summer research program. Now maintained by the folks at the [Data and Democracy Lab](https://mggg.org/).
+Python library to study and analyze election systems, such as ranked-choice voting. Developed as a fellow for Moon Duchin's summer research program. Now maintained by the folks at the [Data and Democracy Lab](https://mggg.org/). For more information about the library, please see the corresponding [paper](https://joss.theoj.org/papers/10.21105/joss.07477) in the Journal of Open Source Software.
 
 
 ## Papers
